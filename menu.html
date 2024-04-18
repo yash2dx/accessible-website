@@ -3,28 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>An excellent, accessible Page</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>An Excellent, Accessible Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="home-page">
+<body>
     <header>
-        <div class="header-content">
+        <div class="container">
             <img src="images/goblin.jpg" alt="Header Image">
-            <h1><b>AN ACCESSIBLE WEBSITE</b></h1>
+            <h1>An Excellent, Accessible Website</h1>
         </div>
-        <nav>
+    </header>
+
+    <nav>
+        <div class="container">
             <ul>
                 <li><a href="index.html" target="Contents">Introduction</a></li>
                 <li><a href="halloffame.html" target="Contents">Hall of Fame</a></li>
                 <li><a href="handy.html" target="Contents">Handy Inventions</a></li>
                 <li><a href="heading.html" target="Contents">About Us</a></li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
     <section class="content">
-        <!-- Your main content here -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>Welcome to Our Accessible Website</h2>
+                    <p>This is the homepage of our accessible website. Here you can find information about various topics, including Introduction, Hall of Fame, Handy Inventions, and About Us.</p>
+                    <p>Feel free to explore the different sections using the navigation menu above.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="latest-news">
+                        <h3>Latest News</h3>
+                        <ul>
+                            <li>Check out our new blog post on the latest innovations!</li>
+                            <li>Join our upcoming webinar on accessibility in technology.</li>
+                            <li>Follow us on social media for updates and announcements.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
