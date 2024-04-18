@@ -1,0 +1,204 @@
+
+.About-page
+  {
+  
+    background-image: url('SiegfriedPortrait.png');
+    background-size: 35%; /* Cover the entire background */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-position: center; /* Center the background image */
+}
+
+.home-page {
+  padding: 20px;
+  background-color: #f0f0f0; /* Set a background color */
+  color: #333; /* Set text color */
+}
+
+.heading {
+  font-size: 36px; /* Increase the font size */
+  color: peru; /* Set the text color */
+}
+
+.animated-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.animated-list li {
+  opacity: 1; /* Adjust opacity */
+  transition: opacity 0.3s ease; /* Add transition effect */
+  margin-bottom: 20px; /* Add space between list items */
+}
+
+.animated-list li a {
+  display: inline-block; /* Ensure the anchor tags take up the full width of their container */
+  padding: 10px 20px; /* Add padding to the anchor tags */
+  font-size: 24px; /* Increase font size */
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Set text color */
+  background-color: #f0f0f0; /* Set background color */
+  border-radius: 10px; /* Add rounded corners */
+}
+
+.animated-list li a:hover {
+  background-color: #ddd; /* Change background color on hover */
+  color: #000; /* Change font color on hover */
+}
+
+.animated-list li:hover {
+  opacity: 0.7; /* Reduce opacity on hover */
+}
+
+@keyframes slide-in {
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+
+/* Resetting default styles */
+/* Resetting default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+  background-color: #333; /* Background color for the header */
+  color: #fff; /* Text color for the header */
+  padding: 10px; /* Adjust padding for all sides */
+  display: flex; /* Use flexbox to align items horizontally */
+  justify-content: space-between; /* Align items with space between */
+  align-items: center; /* Center items vertically */
+}
+
+.header-content {
+  display: flex; /* Use flexbox to align items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.header-content h1 {
+  margin-right: 10px; /* Add space between title and button */
+  font-size: 20px; /* Adjust font size */
+}
+
+/* Navigation styles */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff; /* Text color for navigation links */
+  text-decoration: none;
+  font-size: 16px; /* Adjust font size */
+  transition: color 0.3s ease; /* Transition effect for color change */
+}
+
+nav ul li a:hover {
+  color: #f0f0f0; /* Text color for navigation links on hover */
+}
+
+/* Button styles */
+.header-button {
+  background-color: #007bff; /* Background color for the button */
+  border: none; /* Remove button border */
+  padding: 5px 10px; /* Adjust padding for top and bottom */
+  border-radius: 5px; /* Add border radius to create rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Transition effect for background color change */
+}
+
+.header-button img {
+  width: 20px; /* Set image width */
+  height: 20px; /* Set image height */
+  margin-right: 5px; /* Add space between image and text */
+}
+
+.header-button:hover {
+  background-color: #0056b3; /* Background color for the button on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  
+    font-size: 30px; /* Adjust the font size */
+    font-family: Arial, sans-serif; /* Change the font family */
+    color: rgb(221, 255, 0); /* Change the text color */
+    text-align: center; /* Align the text to the center */
+    text-decoration: underline; /* Add an underline decoration */
+    line-height: 1.2; /* Adjust the line height */
+
+
+}
+
+
+h2 {
+  text-align: center;
+  font-size: x-large;
+}
+
+h3 {
+  text-align: left;
+  font-size: large;
+}
+
+.footnote {
+  text-align: center;
+  font-size: small;
+}
+
+p {
+  text-align: left;
+  font-size: x-large;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffb500;
+  font-size: 17px;
+
+}
+
+.topnav a {
+  float: left;
+  color: #4f2c1d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #4f2c1d;
+  color: white;
+}
+
+.topnav a:active {
+  background-color: #ffb500;
+  color: white;
+}
