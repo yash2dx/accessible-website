@@ -131,6 +131,115 @@ nav ul li a:hover {
 
 
 
+/* Additional CSS styles for a more professional look */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  width: 80px;
+  height: auto;
+  margin-right: 10px; /* Add margin to separate the image from the heading */
+}
+
+header h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 36px;
+}
+
+nav {
+  background-color: #212529;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffc107;
+}
+
+.content {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.latest-news {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.latest-news h3 {
+  margin-top: 0;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.latest-news ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.latest-news ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
 
 
 
