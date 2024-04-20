@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>An Excellent, Accessible Page</title>
+    <title>An Excellent Accessible Page</title>  <!-- Change to whatever you want the tab to be called-->
     <link rel="stylesheet" href="style.css">
 </head>
+<!-- need to add alt text too -->
 <body>
     <header>
         <div class="container">
-            <img src="images/goblin.jpg" alt="Header Image">
-            <h1>An Excellent, Accessible Website</h1>
+            <!-- change image -->
+            <img src="images/goblin.jpg" title="Header Image">
+            <h1>An Excellent Accessible Website</h1>
         </div>
     </header>
 
     <nav>
         <div class="container">
+            <!-- Changed target=content to target = "_self" and added title="Link to ... Tab"-->
             <ul>
-                <li><a href="index.html" target="Contents">Introduction</a></li>
-                <li><a href="halloffame.html" target="Contents">Hall of Fame</a></li>
-                <li><a href="handy.html" target="Contents">Handy Inventions</a></li>
-                <li><a href="heading.html" target="Contents">About Us</a></li>
+                <!-- *need to add alt text*  -->
+                <li><a href="index.html" target="_self" title="Link to Introduction Tab">Introduction</a></li>
+                <li><a href="halloffame.html" target="_self" title="Link to Hall of Fame Tab">Hall of Fame</a></li>
+                <li><a href="handy.html" target="_self" title="Link to Handy Inventions Tab">Handy Inventions</a></li>
+                <li><a href="heading.html" target="_self" title="Link to About Us Tab">About Us</a></li>
             </ul>
         </div>
     </nav>
@@ -30,7 +35,8 @@
             <div class="row">
                 <div class="col-md-8">
                     <h2>Welcome to Our Accessible Website</h2>
-                    <p>This is the homepage of our accessible website. Here you can find information about various topics, including Introduction, Hall of Fame, Handy Inventions, and About Us.</p>
+                    <p>This is the homepage of our accessible website. Here you can find information about various
+                        topics, including Introduction, Hall of Fame, Handy Inventions, and About Us.</p>
                     <p>Feel free to explore the different sections using the navigation menu above.</p>
                 </div>
                 <div class="col-md-4">
@@ -53,4 +59,5 @@
         </div>
     </footer>
 </body>
+
 </html>

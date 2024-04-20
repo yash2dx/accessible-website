@@ -1,32 +1,85 @@
 <html>
-  <head> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css"></head>
-  <body bgcolor="rosybrown">
-     <font color="royalblue">
-    <h1>Some Handy Inventions</h1>
-    <h2> Thanks to Brian Seidl and Scott Shannon </h2>
-    <ul>
-    <h3>Ninja Cats</h3>
-    <p align="left">Conquer the world with the ultimate weapon.
-       Parts needed for weapon:
-       <ol> <li> Cat (Home grown is OK)</li>
-            <li> Drone </li>
-            <li> Duct tape </li> </ol>
-       Instructions will come in the mail </p>
-    </p>
-    <img src="images/catdrone.jpg" align="right" width="20%">
-    <h3>Check this one own. <i>Checkmate</i>.</h3>
-    <p align=left">Never lose track of where you are in a book.
-              Sometimes the easiest solutions really are the
-              <strike>intelligentist</strike> smartest solution. Just take some mustard and squirt it onto the page before where you just read. (Relish works as well)
-    </p>
-    <img src="images/heinzrecipe.jpg" width="20%" align="right">
 
-    <h3>The Ultimate Swiss Army Knife by Wenger &reg;</h3>
-    <p align="left"> For the man who needs a lot of tools and only one pocket to store them in.
-    </p>
-    <img src="images/ultimateswiss.jpg" width="20%" align="right">
-    </ul>
-    </font>
-  </body>
+<head>
+  <title>An Excellent Accessible Website</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div>
+      <!-- When you click the title it will send to home page-->
+      <a href="menu.html" target="_self" title="Link to Home Tab">
+        <h1>An Excellent Accessible Website</h1>
+      </a>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <!-- Added Nav bar to page-->
+      <ul>
+        <li><a href="menu.html" target="_self" title="Link to Home Tab">Home</a></li>
+        <li><a href="index.html" target="_self" title="Link to Introduction Tab">Introduction</a></li>
+        <li><a href="halloffame.html" target="_self" title="Link to Hall of Fame Tab">Hall of Fame</a></li>
+        <li><a href="handy.html" target="_self" title="Link to Handy Inventions Tab">Handy Inventions</a></li>
+        <li><a href="heading.html" target="_self" title="Link to About Us Tab">About Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul>
+    <!-- *We can remove the thanks and put it on about us page*-->
+    <h1><b> Handy Inventions</b></h1>
+    <h2> Thanks to Brian Seidl and Scott Shannon </h2>
+
+
+    <!-- Cat drone-->
+    <div class="handy">
+      <img src="images/catdrone.jpg" width="20%" alt="Cat attached to a drone" title="Picture of Ninja Cat"
+        class="image">
+      <div class="content">
+        <p><b>Ninja Cats</b></p>
+        <p>Conquer the world with the ultimate weapon.</p>
+        <p>Parts needed for weapon:</p>
+
+        <!-- *Need to remove bullet points*-->
+        <ul>
+          <li>Cat (Home grown is OK)</li>
+          <li>Drone</li>
+          <li>Duct tape</li>
+        </ul><br>
+        <p>Instructions will come in the mail</p>
+      </div>
+    </div>
+
+
+    <!-- bookmark-->
+    <div class="handy">
+      <img src="images/heinzrecipe.jpg" width="20%" alt="Ketchup on a book page" title="Picture of Mustard Bookmark"
+        class="image">
+      <div class="content">
+        <p><b>Mustard Bookmark</b></p>
+        <p>Never lose track of where you are in a book.</p>
+        <p> Sometimes the easiest solutions really are the smartest solution.</p>
+        <p>Just take some mustard and squirt it onto the page before
+          where you just read. (Relish works as well)</p>
+      </div>
+    </div>
+
+    <!-- swiss knife-->
+    <div class="handy">
+      <img src="images/ultimateswiss.jpg" width="20%" alt="Swiss Army Knife with too many parts"
+        title="Picture of Ultimate Swiss Army Knife" class="image">
+      <div class="content">
+        <p><b>The Ultimate Swiss Army Knife by Wenger &reg;</b></p>
+        <p> For the man who needs a lot of tools and only one pocket to store them in.</p>
+      </div>
+    </div>
+
+  </ul>
+
+</body>
+
 </html>

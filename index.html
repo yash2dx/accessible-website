@@ -1,55 +1,85 @@
 <html>
-  <head>
-    <title>A Terrible, Inaccessible Page </title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <h1> My Really Bad, Inaccessible Web Site </h1>
-    <h2> Robert M. Siegfried, MSIWS*</h2>
-    <h5 class="footnote">Master of Sciences, Inaccessible Web Sites </h5>
-    <h3>This website is horrible. Try to find all of the accessibility
-        violations and fix them.</h3>
+
+<head>
+  <title>An Excellent Accessible Website</title> <!-- Change to whatever you want the tab to be called-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div>
+       <!-- When you click the title it will send to home page-->
+      <a href="menu.html" target="_self" title="Link to Home Tab"><h1>An Excellent Accessible Website</h1></a>
+    </div>
+  </header>
 
 
-    <h3>A Few Illustrations </h3>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <p>My photo</p>
+  <nav>
+    <div class="container">
+      <!-- Added Nav bar to page-->
+      <ul>
+        <li><a href="menu.html" target="_self" title="Link to Home Tab">Home</a></li>
+        <li><a href="index.html" target="_self" title="Link to Introduction Tab">Introduction</a></li>
+        <li><a href="halloffame.html" target="_self" title="Link to Hall of Fame Tab">Hall of Fame</a></li>
+        <li><a href="handy.html" target="_self" title="Link to Handy Inventions Tab">Handy Inventions</a></li>
+        <li><a href="heading.html" target="_self" title="Link to About Us Tab">About Us</a></li>
+      </ul>
     </div>
-    <div class="col-sm-8">
-      <img src="./SiegfriedPortrait.png" width="100%">
-    </div>
- 
-  <div class="row">
-    <div class="col-sm-4">
-      <p>My favorite device</p>
-    </div>
-    <div class="col-sm-8">
-      <img src="images/bananaphone.jpg" width="100%"> <br/ >
-    </div>
-  </div>
-  <div class="row">
-  </div>
-  <div class="row">
-    <div class="col-sm-4">
-      <p>My dream car</p>
-    </div>
-    <div class="col-sm-8">
-      <img src="images/jeep.jpg" width="100%">
-    </div>
-    
-  <div class="row">
-    <div class="col-sm-4">
-      <p>My favorite summer cocktail</p>
-    </div>
-    <div class="col-sm-8">
-      <img src="images/nyquil.jpg" width="70%">
-    </div>
-  </div>
+  </nav>
 
-</div>
-  
-  </body> 
+
+  <h1><b>A Few Illustrations</b> </h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <p>My photo</p>
+        <h2> Robert M. Siegfried, MSIWS*</h2>
+        <h3 class="footnote">Master of Sciences, Inaccessible Web Sites </h3>
+      </div>
+      <div class="col-sm-8">
+        <!-- need to add alt text  -->
+        <img src="images/SiegfriedPortrait.png" width="50%" title="Picture of Dr. Siegfried"> <br><br>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <p>My favorite device</p>
+          <h2> Banana Phone</h2>
+          <h3 class="footnote">Combining Fruit and Function </h3>
+        </div>
+        <div class="col-sm-8">
+          <!-- need to add alt text  -->
+          <img src="images/bananaphone.jpg" width="50%" title="Picture of Banana Phone"> <br><br>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-sm-4">
+          <p>My dream car</p>
+          <h2> Jeep Chandelier</h2>
+          <h3 class="footnote">Driving on brighter roads</h3>
+        </div>
+        <div class="col-sm-8">
+          <!-- need to add alt text  -->
+          <img src="images/jeep.jpg" width="50%" title="Picture of Dream Car"> <br><br>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <p>My favorite summer cocktail</p>
+            <h2> NyQuil</h2>
+            <h3 class="footnote">For a restful night</h3>
+          </div>
+          <div class="col-sm-8">
+            <!-- need to add alt text  -->
+            <img src="images/nyquil.jpg" width="50%" title="Picture of Summer Cocktail (NyQuil)">
+          </div>
+        </div>
+
+      </div>
+
+</body>
+
 </html>
