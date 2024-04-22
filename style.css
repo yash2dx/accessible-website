@@ -95,6 +95,9 @@ nav ul li a:hover {
     font-weight: bold; 
 }
 
+.latest-news {
+  color: #333; /* Dark text color */
+}
 
 .latest-news ul {
   list-style-type: none;
