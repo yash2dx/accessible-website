@@ -89,10 +89,11 @@ nav ul li a:hover {
 }
 
 .latest-news h3 {
-  margin-top: 0;
-  font-size: 24px;
-  margin-bottom: 20px;
+    color: #333; 
+    font-size: 24px; 
+    font-weight: bold; 
 }
+
 
 .latest-news ul {
   list-style-type: none;
