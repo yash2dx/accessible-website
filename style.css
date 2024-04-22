@@ -78,9 +78,6 @@ nav ul li a:hover {
 }
 
 .image {
-  margin-right: 30px;
-}
-.image {
   width: 300px; /* Set the width of the images to 300 pixels */
   height: auto; /* Maintain aspect ratio */
 }
