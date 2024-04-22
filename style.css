@@ -100,6 +100,7 @@ nav ul li a:hover {
   color: #fff; 
 } */
 
+
 .latest-news ul {
   list-style-type: none;
   margin: 0;
@@ -107,7 +108,9 @@ nav ul li a:hover {
   text-align: left;
 }
 
+
 .latest-news ul li {
+  color: #fff; /* White text color */
   font-size: 16px;
   margin-bottom: 10px;
 }
