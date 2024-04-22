@@ -83,7 +83,7 @@ nav ul li a:hover {
 }
 
 .latest-news {
-  background-color: #0c0821;
+  background-color: #0C0821; /* Updated background color */
   color: #fff; /* White text for better contrast */
   padding: 20px;
   border-radius: 5px;
@@ -95,6 +95,7 @@ nav ul li a:hover {
   font-size: 24px;
   font-weight: bold;
 }
+
 
 
 .latest-news ul {
