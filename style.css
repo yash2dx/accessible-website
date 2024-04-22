@@ -89,16 +89,16 @@ nav ul li a:hover {
   border-radius: 5px;
 }
 
-
+/* Updated text color for better contrast */
 .latest-news h3 {
-   color: #e9ff00;
-    font-size: 24px; 
-    font-weight: bold; 
+  color: #fff; /* White text color */
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.latest-news {
-  color: #fff; /* Dark text color */
-}
+/*.latest-news {
+  color: #fff; 
+} */
 
 .latest-news ul {
   list-style-type: none;
