@@ -3,20 +3,20 @@
   {
   
     background-image: url('SiegfriedPortrait.png');
-    background-size: 35%; /* Cover the entire background */
-    background-repeat: no-repeat; /* Do not repeat the background image */
-    background-position: center; /* Center the background image */
+    background-size: 35%; 
+    background-repeat: no-repeat; 
+    background-position: center; 
 }
 
 .home-page {
   padding: 20px;
-  background-color: #f0f0f0; /* Set a background color */
-  color: #333; /* Set text color */
+  background-color: #f0f0f0; 
+  color: #333; 
 }
 
 .heading {
-  font-size: 36px; /* Increase the font size */
-  color: peru; /* Set the text color */
+  font-size: 36px; 
+  color: peru; 
 }
 
 .animated-list {
@@ -25,14 +25,14 @@
 }
 
 .animated-list li {
-  opacity: 1; /* Adjust opacity */
-  transition: opacity 0.3s ease; /* Add transition effect */
-  margin-bottom: 20px; /* Add space between list items */
+  opacity: 1; 
+  transition: opacity 0.3s ease; 
+  margin-bottom: 20px; 
 }
 
 .animated-list li a {
-  display: inline-block; /* Ensure the anchor tags take up the full width of their container */
-  padding: 10px 20px; /* Add padding to the anchor tags */
+  display: inline-block; 
+  padding: 10px 20px; 
   font-size: 24px; /* Increase font size */
   text-decoration: none; /* Remove underline from links */
   color: #333; /* Set text color */
