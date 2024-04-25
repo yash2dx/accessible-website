@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+     <!-- head is used to change the title of the website on the tab. this sets it to An Excellent Acessible Page -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>An Excellent, Accessible Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
+         <!--the class is set to container- defined in style.css  -->
         <div class="container">
-            <!-- Add descriptive alt text for the header image -->
+            <!-- An image was added next to the title of the website -->
             <img src="images/goblin.jpg" alt="Illustration of a goblin character">
             <h1>An Excellent, Accessible Website</h1>
         </div>
     </header>
-
+     <!--nav is used to create the navigation bar to change pages and the content on the pages  -->
     <nav>
         <div class="container">
+             <!-- an unordered list is used to hold the pages  -->
+             <!-- instead of using <big> and <font>, used li and a  -->
             <ul>
                 <li><a href="index.html" target="Contents">Introduction</a></li>
                 <li><a href="halloffame.html" target="Contents">Hall of Fame</a></li>
@@ -28,7 +33,7 @@
 
     <section class="content">
         <div class="container">
-            <!-- Replace the <p> element with a <h2> heading -->
+            
             <div class="row">
                 <div class="col-md-8">
                     <h2>Welcome to Our Accessible Website</h2>
@@ -50,10 +55,10 @@
         </div>
     </section>
 
-    <!-- Use a <footer> element for the footer section -->
+   
     <footer>
         <div class="container">
-            <!-- Use a heading element (e.g., <h1>, <h2>, etc.) for the footer text -->
+            
             <h2>&copy; 2024 Your Company. All rights reserved.</h2>
         </div>
     </footer>
