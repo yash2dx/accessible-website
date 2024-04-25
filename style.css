@@ -203,8 +203,8 @@ nav ul li a:hover {
 }
 
 .latest-news {
-  background-color: #007bff; /* Background color */
-  color: #333; /* Dark text color for better contrast */
+  background-color: #007bff; 
+  color: #333; 
   padding: 20px;
   border-radius: 5px;
 }
@@ -238,11 +238,6 @@ footer p {
   margin: 0;
   font-size: 14px;
 }
-
-
-
-
-
 
 
 
