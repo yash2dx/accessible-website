@@ -82,20 +82,17 @@ nav ul li a:hover {
 }
 
 .latest-news {
-  background-color: #0C0821; 
-  color: #fff; 
+  background-color: #000000;
+  color: #fff;
   padding: 20px;
   border-radius: 5px;
 }
 
-/* Updated text color for better contrast */
 .latest-news h3 {
-  color: #fff; /* White text color */
+  margin-top: 0;
   font-size: 24px;
-  font-weight: bold;
+  margin-bottom: 20px;
 }
-
-
 
 .latest-news ul {
   list-style-type: none;
@@ -104,9 +101,7 @@ nav ul li a:hover {
   text-align: left;
 }
 
-
 .latest-news ul li {
-  color: #fff; /* White text color */
   font-size: 16px;
   margin-bottom: 10px;
 }
