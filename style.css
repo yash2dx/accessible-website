@@ -164,11 +164,16 @@ p {
   align-items: center;
   margin-bottom: 20px;
   margin-left: 100px;
-
-  .halloffame img {
-    margin-right: 20px;/
-  }
 }
+
+.halloffame img {
+  margin-right: 20px;
+  width: 200px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 150px; /* Optional: Limit height */
+  object-fit: cover; /* Optional: Cover any overflow */
+}
+
 
 /* handy inventions page*/
 .handy {
