@@ -31,7 +31,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: fadeInDown 1.5s ease-out; /* Added animation */
+  animation: fadeInDown 1.1s ease-out; /* Added animation */
 }
 
 header img {
@@ -50,7 +50,7 @@ nav {
   background-color: #212529;
   padding: 10px 0;
   text-align: center;
-  animation: fadeInUp 1.5s ease-out; /* Added animation */
+  animation: fadeInUp 1.1s ease-out; /* Added animation */
 }
 
 nav ul {
@@ -80,7 +80,7 @@ nav ul li a:hover {
 .content {
   padding: 50px 0;
   text-align: left;
-  animation: slideIn 1.5s ease-out; /* Added animation */
+  animation: slideIn 1.1s ease-out; /* Added animation */
 }
 
 /* Add space around content */
@@ -131,7 +131,7 @@ footer {
   color: #fff;
   padding: 20px 0;
   text-align: center;
-  animation: fadeInUp 1.5s ease-out; /* Added animation */
+  animation: fadeInUp 1.1s ease-out; /* Added animation */
 }
 
 /* Animations */
