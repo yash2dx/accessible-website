@@ -1,11 +1,28 @@
+/* Global Styles */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
+  font-family: Arial, Helvetica, sans-serif;
   color: #333;
   margin: 0;
   padding: 0;
 }
 
+/* Apply background image only to pages with .default-background */
+.default-background {
+  background: url('images/Aviary.jpg') no-repeat center center fixed; /* Set background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+}
+
+/* Dark overlay for better readability */
+.container {
+  background: rgba(255, 255, 255, 0.8); /* Light overlay to contrast text */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px; /* Set max-width for content */
+  margin: 30px auto; /* Center the container and add top/bottom margin */
+}
+
+/* Header */
 header {
   background-color: #FFA500;
   color: #fff;
@@ -14,6 +31,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: fadeInDown 1.5s ease-out; /* Added animation */
 }
 
 header img {
@@ -27,10 +45,12 @@ header h1 {
   font-size: 36px;
 }
 
+/* Navigation */
 nav {
   background-color: #212529;
   padding: 10px 0;
   text-align: center;
+  animation: fadeInUp 1.5s ease-out; /* Added animation */
 }
 
 nav ul {
@@ -53,12 +73,20 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #ffc107;
+  animation: pulse 1s infinite; /* Added pulsing effect on hover */
 }
 
+/* Content */
 .content {
   padding: 50px 0;
   text-align: left;
+  animation: slideIn 1.5s ease-out; /* Added animation */
+}
 
+/* Add space around content */
+section.content {
+  padding: 60px 20px; /* Top and bottom padding to create space from header and footer */
+  margin: 20px 0; /* Ensure additional spacing */
 }
 
 .content h2 {
@@ -71,18 +99,9 @@ nav ul li a:hover {
   margin-bottom: 20px;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.image {
-  margin-right: 30px;
-}
-
+/* Latest News */
 .latest-news {
-  background-color: #000000;
+  background-color: #000;
   color: #fff;
   padding: 20px;
   border-radius: 5px;
@@ -106,83 +125,73 @@ nav ul li a:hover {
   margin-bottom: 10px;
 }
 
+/* Footer */
 footer {
   background-color: #343a40;
   color: #fff;
   padding: 20px 0;
   text-align: center;
+  animation: fadeInUp 1.5s ease-out; /* Added animation */
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 30px;
-  font-family: Arial, sans-serif;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  text-decoration: underline;
-  line-height: 1.2;
-}
-
-h2 {
-  text-align: center;
-  font-size: large;
-}
-
-h3 {
-  text-align: center;
-  font-size: large;
-}
-
-.footnote {
-  text-align: center;
-  font-size: small;
-}
-
-p {
-  text-align: left;
-  font-size: x-large;
-}
-
-/* about us page*/
-.aboutus {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  margin-left: 100px;
-
-  .aboutus img {
-    margin-right: 20px;/
+/* Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-/* hall of fame page*/
-.halloffame {
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Other Sections (Hall of Fame, About Us, Handy Inventions) */
+.halloffame, .aboutus, .handy {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
   margin-left: 100px;
 }
 
-.halloffame img {
+.halloffame img, .aboutus img, .handy img {
   margin-right: 20px;
-  width: 200px; /* Set the desired width */
-  height: auto; /* Maintain aspect ratio */
-  max-height: 150px; /* Optional: Limit height */
-  object-fit: cover; /* Optional: Cover any overflow */
-}
-
-
-/* handy inventions page*/
-.handy {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  margin-left: 100px;
-
-  .handy img {
-    margin-right: 20px;/
-  }
+  width: 200px;
+  height: auto;
+  max-height: 150px;
+  object-fit: cover;
 }
