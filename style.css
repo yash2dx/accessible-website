@@ -8,19 +8,18 @@ body {
 
 /* Apply background image only to pages with .default-background */
 .default-background {
-  background: url('images/Aviary.jpg') no-repeat center center fixed; /* Set background image */
-  background-size: cover; /* Ensure the image covers the entire background */
+  background: url('Images/Aviary.jpg') no-repeat top center; /* Align image to the top center */
+  background-size: 100% auto; /* Ensure the image covers the full width and maintains aspect ratio */
+  min-height: calc(100vh - (header height + footer height)); /* Adjust to fill space between header and footer */
 }
 
-/* Dark overlay for better readability */
+/* Optional: To ensure the container does not overflow */
 .container {
-  background: rgba(255, 255, 255, 0.8); /* Light overlay to contrast text */
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 1200px; /* Set max-width for content */
-  margin: 30px auto; /* Center the container and add top/bottom margin */
 }
+
 
 /* Header */
 header {
