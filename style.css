@@ -19,7 +19,7 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 1000px; /* Set max-width for content */
-  margin: 30px auto; /* Center the container and add top/bottom margin */
+  margin: 20px auto; /* Center the container and add top/bottom margin */
 }
 .GUIContainer{
   background: url('images/Aviary.jpg') no-repeat center center fixed; /* Set background image */
@@ -28,7 +28,7 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 1000px; /* Set max-width for content */
-  margin: 30px auto; /* Center the container and add top/bottom margin */
+  margin: 20px auto; /* Center the container and add top/bottom margin */
 }
 
 /* Header */
