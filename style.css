@@ -1,70 +1,65 @@
 /* Global Styles */
 body {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #333;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
-  background-color: #f4f4f4;
-  transition: background-color 0.5s ease;
 }
 
 /* Apply background image only to pages with .default-background */
 .default-background {
   background: url('images/Aviary.jpg') no-repeat center center fixed; /* Set background image */
   background-size: cover; /* Ensure the image covers the entire background */
-  transition: background 0.5s ease;
 }
 
-/* Light overlay for better readability */
+/* Dark overlay for better readability */
 .container {
-  background: rgba(255, 255, 255, 0.9); /* Light overlay with increased transparency */
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.8); /* Light overlay to contrast text */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 1000px; /* Set max-width for content */
-  margin: 30px auto; /* Center the container with more top/bottom margin */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 20px auto; /* Center the container and add top/bottom margin */
 }
-
-.container:hover {
-  transform: scale(1.02); /* Slightly enlarge on hover */
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+.GUIContainer{
+  background: url('images/Aviary.jpg') no-repeat center center fixed; /* Set background image */
+  background-size: cover;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1000px; /* Set max-width for content */
+  margin: 20px auto; /* Center the container and add top/bottom margin */
 }
 
 /* Header */
 header {
   background-color: #FFA500;
-  color: black;
-  padding: 15px 0;
+  color: #FFA500;
+  padding: 10px 0;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   animation: fadeInDown 1.0s ease-out; /* Added animation */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header img {
   width: 80px;
   height: auto;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 header h1 {
   margin: 0;
-  font-size: 40px;
-  font-weight: 700;
-  letter-spacing: 2px;
+  font-size: 36px;
 }
 
 /* Navigation */
 nav {
-  background: linear-gradient(90deg, #343a40, #212529); /* Added gradient for nav background */
-  padding: 15px 0;
+  background-color: #212529;
+  padding: 10px 0;
   text-align: center;
   animation: fadeInUp 1.0s ease-out; /* Added animation */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -75,65 +70,55 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  margin: 0 15px;
+  margin: 0 10px;
 }
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
-  font-weight: 600;
-  padding: 10px 20px;
-  transition: all 0.3s ease;
-  border-radius: 50px; /* Rounded links */
+  transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  background-color: #ffc107;
-  color: #212529;
-  animation: pulse 1s infinite;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow to hovered links */
+  color: #ffc107;
+  animation: pulse 1s infinite; /* Added pulsing effect on hover */
 }
 
 /* Content */
 .content {
   padding: 50px 0;
   text-align: left;
-  animation: slideIn 1.0s ease-out;
+  animation: slideIn 1.0s ease-out; /* Added animation */
 }
 
+/* Add space around content */
 section.content {
-  padding: 60px 20px;
-  margin: 30px 0;
+  padding: 60px 20px; /* Top and bottom padding to create space from header and footer */
+  margin: 20px 0; /* Ensure additional spacing */
 }
 
 .content h2 {
-  font-size: 32px;
+  font-size: 30px;
   margin-bottom: 20px;
-  font-weight: 700;
-  text-transform: uppercase; /* Uppercase for titles */
-  letter-spacing: 1px;
 }
 
 .content p {
   font-size: 18px;
   margin-bottom: 20px;
-  line-height: 1.8; /* Increase line spacing */
 }
 
-/* Latest News Section */
+/* Latest News */
 .latest-news {
-  background-color: #212529;
+  background-color: #000;
   color: #fff;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .latest-news h3 {
-  font-size: 26px;
-  font-weight: 700;
   margin-top: 0;
+  font-size: 24px;
   margin-bottom: 20px;
 }
 
@@ -141,26 +126,21 @@ section.content {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: left;
 }
 
 .latest-news ul li {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
 /* Footer */
 footer {
   background-color: #343a40;
-  color: black;
-  padding: 30px 0;
+  color: #fff;
+  padding: 20px 0;
   text-align: center;
-  animation: fadeInUp 1.0s ease-out;
-  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
-}
-
-footer h2 {
-  font-size: 18px;
-  margin: 0;
+  animation: fadeInUp 1.0s ease-out; /* Added animation */
 }
 
 /* Animations */
@@ -213,18 +193,8 @@ footer h2 {
 .halloffame, .aboutus, .handy {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   margin-left: 100px;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.8); /* Added background and shadow */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.halloffame:hover, .aboutus:hover, .handy:hover {
-  transform: scale(1.03);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .halloffame img, .aboutus img, .handy img {
@@ -233,10 +203,4 @@ footer h2 {
   height: auto;
   max-height: 150px;
   object-fit: cover;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-}
-
-.halloffame img:hover, .aboutus img:hover, .handy img:hover {
-  transform: scale(1.05);
 }
