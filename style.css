@@ -17,19 +17,17 @@ body {
 }
 
 /* Light overlay for better readability */
-.header-container {
-color: black;
-background-color: rgba(255, 255, 255, 0.9);
-padding: 15px;
-display: flex;
-border-radius: 10px;
-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-max-width: 1000px;
-margin: 30px auto;
-transition: transform 0.3s ease, box-shadow 0.3s ease;
+.container {
+  background: rgba(255, 255, 255, 0.9); /* Light overlay with increased transparency */
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 1000px; /* Set max-width for content */
+  margin: 30px auto; /* Center the container with more top/bottom margin */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.header-container:hover {
+.container:hover {
   transform: scale(1.02); /* Slightly enlarge on hover */
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
 }
@@ -37,7 +35,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
 /* Header */
 header {
   background-color: #FFA500;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 15px 0;
   text-align: center;
   display: flex;
@@ -81,7 +79,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
@@ -126,7 +124,7 @@ section.content {
 /* Latest News Section */
 .latest-news {
   background-color: #212529;
-  color: #fff;
+  color: #ffffff;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
@@ -153,7 +151,7 @@ section.content {
 /* Footer */
 footer {
   background-color: #343a40;
-  color: #fff;
+  color: #000000;
   padding: 30px 0;
   text-align: center;
   animation: fadeInUp 1.0s ease-out;
@@ -163,17 +161,6 @@ footer {
 footer h2 {
   font-size: 18px;
   margin: 0;
-}
-.footer-container{
-  color: black;
-background-color: rgba(255, 255, 255, 0.9);
-padding: 15px;
-display: flex;
-border-radius: 10px;
-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-max-width: 1000px;
-margin: 30px auto;
-transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Animations */
