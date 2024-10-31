@@ -155,12 +155,16 @@ section.content {
 
 /* Footer */
 footer {
-  background-color: #343a40;
-  color: #fff;
-  padding: 30px 0;
-  text-align: center;
-  animation: fadeInUp 1.0s ease-out;
-  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+width: 100%;
+left: 0;
+bottom: 0;
+position: absolute;
+background-color: #343a40;
+color: #fff;
+padding: 30px 0;
+text-align: center;
+animation: fadeInUp 1.0s ease-out;
+box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
 
 footer h2 {
