@@ -2,26 +2,21 @@
 <html lang="en">
 
 <head>
-  <title>Accessible Restauraunts</title> <!-- Changed to match the other pages-->
+  <title>Cuisine Spotlight</title> <!-- Updated title to reflect the Cuisine Spotlight page -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-
-   <header>
-         <!--the class is set to container- defined in style.css  -->
-        <div class="header-container">
-            <!-- An image was added next to the title of the website -->
-            <img src="images/Food1.png" alt="Illustration of a burger">
-            <h1>Accessible Restauraunts</h1>
-        </div>
-    </header>
-
+  <header>
+    <div class="header-container">
+      <img src="images/Food1.png" alt="Illustration of a burger">
+      <h1>Cuisine Spotlight</h1>
+    </div>
+  </header>
 
   <nav>
     <div class="container">
-      <!-- Added Nav bar to page-->
       <ul>
         <li><a href="index.html" target="_self" title="Link to Home Tab">Home</a></li>
         <li><a href="halloffame.html" target="_self" title="Link to Hall of Fame Tab">Hall of Fame</a></li>
@@ -31,36 +26,54 @@
     </div>
   </nav>
 
-  <style>
-    body {
-        color: #fff;
-      background-image: url('images/Aviary.jpg');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-    }
-    </style> 
-  <h1><b>NYC Accessible Restaurants</b> </h1>
-  <br> </br>
-  <br> </br>
+  <main class="content">
+    <section class="cuisine-overview">
+      <h1><b>Discover Local Cuisines</b></h1>
+      <p>Welcome to our local restaurants spotlight!</p>
+    </section>
 
-  <br> </br>
-  <br> </br>
-  <br> </br>
-  <br> </br>
-  
-  
-  <h1><b>Aviary</b> </h1>
-    
-    
-      
+    <!-- Cuisine Spotlight Section -->
+    <section class="cuisine-spotlight">
+      <!-- Rustica Brick Oven Café -->
+      <div class="halloffame">
+        <a href="https://rusticabrickoven.com/" target="_blank">
+          <img src="images/rustica.jpg" alt="Picture of Rustica Cafe">
+        </a>
+        <div>
+          <h2>Rustica Brick Oven Café</h2>
+          <p>Family-Owned & Operated, Rustica Brick Oven Café proudly upholds its tradition of delivering high-quality Italian cuisine.</p>
+        </div>
+      </div>
+
+      <!-- Kiko Ramen Bar -->
+      <div class="halloffame">
+        <a href="https://kikoramenbar.com" target="_blank"> 
+          <img src="images/kiko.jpg" alt="Picture of Kiko Ramen Bar">
+        </a>
+        <div>
+          <h2>Kiko Ramen Bar</h2>
+          <p>Kiko Ramen offers authentic Japanese Ramen, house-made broth over 2 days without MSG. Enjoy the Ramen Soup, Japanese-style fried chicken wings, and Donburi!</p>
+        </div>
+      </div>
+
+      <!-- Gonzo's Mexican Grill -->
+      <div class="halloffame">
+        <a href="https://gonzosmexicangrill.com" target="_blank"> 
+          <img src="images/gonzos.jpg" alt="Picture of Gonzo's Mexican Grill">
+        </a>
+        <div>
+          <h2>Gonzo's Mexican Grill</h2>
+          <p>Burritos, tacos, and other traditional Mexican dishes offered in a laid-back setting.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
   <footer>
     <div class="container">
-        
-        <h2>&copy; 2024 Anil and Yash. All rights reserved.</h2>
+      <h2>&copy; 2024 Anil and Yash. All rights reserved.</h2>
     </div>
-</footer>
-
+  </footer>
 
 </body>
 
